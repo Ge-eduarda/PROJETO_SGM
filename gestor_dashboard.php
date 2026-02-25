@@ -39,9 +39,9 @@
             </div>
         </section>
         <section class="bnt">
-            <button type="button" class="btn btn-secondary">
+            <a type="button" class="btn btn-secondary" href="gestor_chamados.php">
                 <i class="bi bi-clipboard-check"></i> Gerenciar Todos os Chamados
-            </button>           
+</a>           
 
             <button type="button" class="btn btn-outline-secondary">
                 <a href="./gestor_chamados.php"><i class="bi bi-gear"></i> Configurar Ambiente</a>

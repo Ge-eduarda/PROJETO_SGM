@@ -8,13 +8,13 @@ $perfil = $_SESSION['user_perfil'];
 
 switch($perfil){
     case 'gestor':
-        header('Location: gestor_deshboard.php');
+        header('Location: gestor_dashboard.php');
         break;
     case 'tecnico':
-        header('Location: tecnico_deshboard.php');
+        header('Location: tecnico_dashboard.php');
         break;
     case 'solicitante':
-        header('Location: solicitante_deshboard.php');
+        header('Location: solicitante_dashboard.php');
         break;
     default:
     session_destroy();

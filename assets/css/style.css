@@ -358,6 +358,119 @@ h2{
     background-color: #232445;
 }
 
+#chamado_soli {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+#cardCampos {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.topo_soli {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #2F3156;
+}
+
+.topo_soli h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.topo_soli a {
+    border: 1px solid rgba(255,255,255,0.4);
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.topo_soli a:hover {
+    background-color: rgba(255,255,255,0.1);
+    border-color: #fff;
+}
+
+.conteudo_soli form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.campoForm {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.campoForm label {
+    font-weight: 600;
+    color: #444;
+    font-size: 14px;
+}
+
+select, textarea, input[type='file'] {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font-size: 15px;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+select:focus, textarea:focus {
+    outline: none;
+    border-color: #2F3156;
+    box-shadow: 0 0 0 3px rgba(47, 49, 86, 0.1);
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+input[type='file'] {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.conteudo_soli form button {
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    color: #fff;
+    background-color: #2F3156;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.conteudo_soli form button:hover {
+    background-color: #1e203a;
+}
+
 
 
 
