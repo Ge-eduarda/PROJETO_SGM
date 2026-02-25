@@ -29,3 +29,9 @@ document.getElementById('formLogin').addEventListener('submit', async (e) => {
         msg.innerText = "Erro ao conectar com o servidor.";
     }
 });
+
+
+
+function confirmarLogout() {
+    return confirm("Você realmente deseja sair?");
+}

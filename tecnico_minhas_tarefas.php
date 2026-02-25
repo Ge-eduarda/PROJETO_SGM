@@ -17,8 +17,15 @@
                 <h1>João técnico</h1>
             </section>
             <section class="nav">
-                <button type="button" class="btn btn-outline"><a href="./api/logout.php">Sair</a></button>
-            </section>
+                <button type="button" class="btn btn-outline">
+                    <a href="api/logout.php" onclick="return confirmarLogout()">Sair</a>
+
+                    <script>
+                        function confirmarLogout() {
+                            return confirm("Você realmente deseja sair?");
+                        }
+                    </script>
+                </button>            </section>
         </nav>
     </header>
 

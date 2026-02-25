@@ -19,7 +19,17 @@
             <section class="nav">
                 <h2>Olá, admin Gestor</h2>
                 <div></div>
-                <button type="button" class="btn btn-outline"><a href="./api/logout.php">Sair</a></button>
+                
+                <button type="button" class="btn btn-outline">
+                    <a href="api/logout.php" onclick="return confirmarLogout()">Sair</a>
+
+                    <script>
+                        function confirmarLogout() {
+                            return confirm("Você realmente deseja sair?");
+                        }
+                    </script>
+                </button>
+
             </section>
         </nav>
     </header>
@@ -39,15 +49,17 @@
             </div>
         </section>
         <section class="bnt">
-            <a type="button" class="btn btn-secondary" href="gestor_chamados.php">
+            <a type="button" class="btn btn-secondary col-3" href="gestor_chamados.php">
                 <i class="bi bi-clipboard-check"></i> Gerenciar Todos os Chamados
-</a>           
+            </a>           
 
-            <button type="button" class="btn btn-outline-secondary">
-                <a href="./gestor_chamados.php"><i class="bi bi-gear"></i> Configurar Ambiente</a>
-            </button>
+            <a type="button" class="btn btn-secondary col-3" href="" style="color: #000">
+                <i class="bi bi-gear"></i> Configurar Ambiente
+            </a>
 
         </section>
     </main>
+
+    <script src="./assets/js/login.js"></script>
 </body>
 </html>

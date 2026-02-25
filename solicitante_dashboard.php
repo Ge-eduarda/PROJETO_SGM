@@ -20,8 +20,15 @@
             <section class="nav">
                 <h2>Olá, Maria Solicitante</h2>
                 <div></div>
-                <button type="button" class="btn btn-outline"><a href="./api/logout.php">Sair</a></button>
-            </section>
+                <button type="button" class="btn btn-outline">
+                    <a href="api/logout.php" onclick="return confirmarLogout()">Sair</a>
+
+                    <script>
+                        function confirmarLogout() {
+                            return confirm("Você realmente deseja sair?");
+                        }
+                    </script>
+                </button>            </section>
         </nav>
     </header>
     <main>
