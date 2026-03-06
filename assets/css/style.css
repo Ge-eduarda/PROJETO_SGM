@@ -151,7 +151,6 @@ main .card_section {
 .links{
     width: 20%;
     height: 50px;
-    border: 1px solid #000;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -229,7 +228,6 @@ a{
 #header_chamados{
     background-color: #fff;
     width: 100%;
-    border: 1px solid #000;
     display: flex;
     align-items: center;
 }
@@ -470,6 +468,81 @@ input[type='file'] {
 .conteudo_soli form button:hover {
     background-color: #1e203a;
 }
+
+#bnt_modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+#bnt_modal button{
+    width: 98%;
+    height: 40px;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+
+.card_list{
+    width: 47%;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #aaa1a1;
+    margin-bottom: 15px;
+
+}
+
+.card_list .info{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    margin-left: 10px;
+}
+
+.card_list .info h2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card_list .info p{
+    font-size: 12px;
+}
+
+.bnt_card{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.bnt_card div{
+    width: 38%;
+    height: 55%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bnt_card div:nth-child(1){
+    background-color: #54966f;
+}
+
+.bnt_card div:nth-child(2){
+    background-color: #b54b4b;
+}
+
+
 
 
 
